@@ -1,0 +1,28 @@
+.question{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    display: none;
+}
+
+.js-toDoForm input{    
+    background:none;
+    border: none;
+    color: white;
+    font-size: 26px;
+    border-bottom: 2px solid;
+    margin-bottom: 20px;
+}
+
+.js-toDoForm input::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+.js-toDoForm input:active,
+.js-toDoForm input:focus{
+    outline: none;
+}
+
+.js-toDoList{
+    font-size: 1.4rem;
+}
